@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  app: 
+    build: ./app
+    tty: true # https://github.com/facebook/create-react-app/issues/8688
+    ports: 
+      - "3000:3000"
+    volumes: 
+      - ./app:/app
+
+  api: 
+    build: ./api
+    ports:
+      - "8500:8500"
+    volumes: 
+      - ./api:/api

@@ -1,0 +1,22 @@
+{
+  "name": "offline-first-storage",
+  "version": "1.0.0",
+  "description": "Proof-of-concept application with offline-first storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adunkman/offline-first-storage.git"
+  },
+  "author": "Andrew Dunkman <adunkman@gmail.com> (https://www.dunkman.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adunkman/offline-first-storage/issues"
+  },
+  "homepage": "https://github.com/adunkman/offline-first-storage#readme",
+  "devDependencies": {
+    "jest": "^25.5.4"
+  }
+}
