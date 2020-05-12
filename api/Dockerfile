@@ -1,7 +1,7 @@
 FROM node:14.1
-
-COPY package*.json /api/
 WORKDIR /api
 
+COPY package*.json ./
 RUN npm ci
+
 CMD [ "npm", "start" ]
