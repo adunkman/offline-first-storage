@@ -6,7 +6,7 @@
     "build": "tsc",
     "start": "npm run build && concurrently --kill-others npm:watch npm:start:prod",
     "start:prod": "node dist/",
-    "watch": "tsc --watch"
+    "watch": "tsc --watch --preserveWatchOutput"
   },
   "types": "dist/",
   "dependencies": {
